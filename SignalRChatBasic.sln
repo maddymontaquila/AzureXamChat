@@ -7,11 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatBasic.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatBasic.iOS", "SignalRChatBasic\SignalRChatBasic.iOS\SignalRChatBasic.iOS.csproj", "{883B0F9C-B589-42DE-AEC2-7F17DC5D893D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatBasic.Web", "SignalRChatBasic\SignalRChatBasic.Web\SignalRChatBasic.Web.csproj", "{FC3F3F39-8311-4675-9488-6AEA68AD48DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRChatBasic.Web", "SignalRChatBasic\SignalRChatBasic.Web\SignalRChatBasic.Web.csproj", "{FC3F3F39-8311-4675-9488-6AEA68AD48DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatBasic", "SignalRChatBasic\SignalRChatBasic\SignalRChatBasic.csproj", "{344FF177-4156-43D0-9121-856EBE450F41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRChatBasic", "SignalRChatBasic\SignalRChatBasic\SignalRChatBasic.csproj", "{344FF177-4156-43D0-9121-856EBE450F41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatBasic.ConsoleApp", "SignalRChatBasic.Console\SignalRChatBasic.ConsoleApp.csproj", "{CD422020-EAC2-4D2C-82B0-6CD465776A4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRChatBasic.ConsoleApp", "SignalRChatBasic.Console\SignalRChatBasic.ConsoleApp.csproj", "{CD422020-EAC2-4D2C-82B0-6CD465776A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatBasicServerless", "SignalRChatBasicServerless\SignalRChatBasicServerless.csproj", "{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +109,18 @@ Global
 		{CD422020-EAC2-4D2C-82B0-6CD465776A4E}.Release|iPhone.Build.0 = Release|Any CPU
 		{CD422020-EAC2-4D2C-82B0-6CD465776A4E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{CD422020-EAC2-4D2C-82B0-6CD465776A4E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Release|iPhone.Build.0 = Release|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{0372E5D6-27A0-4E2F-9979-DEE8CFCD21D0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
